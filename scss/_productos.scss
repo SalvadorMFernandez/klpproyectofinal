@@ -1,0 +1,33 @@
+.imagenes-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prenda {
+    display: flex;
+    border: grey solid 2px;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px 2px #240442;
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+.prenda img {
+    margin: 30px;
+    padding: 50px;
+    width: 250px;
+}
+
+.prenda button {
+    padding: 5px 15px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: #240442;
+    color: white;
+    font-family: sans-serif;
+}

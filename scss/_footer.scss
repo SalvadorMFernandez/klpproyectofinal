@@ -1,0 +1,25 @@
+footer {
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-direction: row;
+        gap: 0px 0px;
+        grid-template-areas:
+
+            "imagen-mail imagen-instagram imagen-facebook"
+        ;
+        background-color: #240442;
+        align-items: center;
+        justify-items: center;
+    }
+    div{
+        a{
+            img{
+                width: 100px;
+                margin: 40px;
+                padding: 20px;
+                border-radius: 50px;
+            }
+        }
+    }
+}
