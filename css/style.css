@@ -39,6 +39,15 @@ nav div {
     font-weight: 900;
     font-style: normal; }
 
+form {
+  margin: 50px;
+  padding: 50px;
+  justify-content: center;
+  max-width: 90%; }
+
+main {
+  margin: 50px; }
+
 .imagenes-productos {
   display: flex;
   flex-wrap: wrap;
@@ -78,6 +87,12 @@ footer nav {
   background-color: #240442;
   align-items: center;
   justify-items: center; }
+  @media screen and (max-width: 576px) {
+    footer nav {
+      display: grid;
+      grid-template-columns: 1fr;
+      flex-direction: row;
+      grid-template-areas: "imagen-mail" "imagen-instagram" "imagen-facebook"; } }
 
 footer div a img {
   width: 100px;
