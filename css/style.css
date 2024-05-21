@@ -38,3 +38,49 @@ nav div {
     font-size: 50px;
     font-weight: 900;
     font-style: normal; }
+
+.imagenes-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.prenda {
+  display: flex;
+  border: grey solid 2px;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  box-shadow: 1px 1px 5px 2px #240442;
+  border-radius: 10px;
+  padding: 5px;
+  padding-bottom: 10px;
+  margin: 5px; }
+
+.prenda img {
+  margin: 30px;
+  padding: 50px;
+  width: 250px; }
+
+.prenda button {
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #240442;
+  color: white;
+  font-family: sans-serif; }
+
+footer nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: row;
+  gap: 0px 0px;
+  grid-template-areas: "imagen-mail imagen-instagram imagen-facebook";
+  background-color: #240442;
+  align-items: center;
+  justify-items: center; }
+
+footer div a img {
+  width: 100px;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 50px; }
