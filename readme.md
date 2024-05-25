@@ -1,1 +1,1 @@
-Este es proyecto de una tienda online de Indumentaria Americana. 
+Este es un proyecto de una tienda online de Indumentaria Americana. 
