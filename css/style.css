@@ -78,24 +78,32 @@ main {
   color: white;
   font-family: sans-serif; }
 
-footer nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  flex-direction: row;
-  gap: 0px 0px;
-  grid-template-areas: "imagen-mail imagen-instagram imagen-facebook";
-  background-color: #240442;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-items: center; }
-  @media screen and (max-width: 576px) {
-    footer nav {
-      display: grid;
-      grid-template-columns: 1fr;
-      flex-direction: row;
-      grid-template-areas: "imagen-mail" "imagen-instagram" "imagen-facebook"; } }
+  height: 100vh; }
 
-footer div a img {
-  width: 100px;
-  margin: 40px;
-  padding: 20px;
-  border-radius: 50px; }
+footer {
+  padding: 20px 0;
+  background-color: #4b004b; }
+  footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; }
+    footer .footer-container a {
+      display: block;
+      width: 100%; }
+      footer .footer-container a img {
+        width: 100px;
+        margin: 40px;
+        padding: 20px;
+        border-radius: 50px; }
+  footer h1 {
+    color: #fdfcfd; }
+  @media screen and (max-width: 768px) {
+    footer .footer-container {
+      grid-template-columns: 1fr 1fr 1fr; } }
