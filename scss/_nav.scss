@@ -1,24 +1,19 @@
 body {
     background-color: #ffffff;
 }
-
-section {
-    display: flex;
-    justify-content: center;
-}
-
-nav {
-    ul {
-        li {
-            background-color: #4b004b;
-
-            a {
-                color: #ffffff;
-            }
-        }
+nav div a img{
+    width: 400px;
+    border-radius: 50px;
+    
+    @include mobile{
+        justify-items: center;
     }
 }
-
+div ul li a{
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
 h1 {
     display: flex;
     justify-content: center;
